@@ -1,0 +1,72 @@
+{
+  "name": "whatsapp-mega-bot-1500",
+  "version": "5.0.0",
+  "description": "WhatsApp Bot with 1500+ Complete Features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "generate": "node generate-all.js",
+    "termux": "bash install-termux.sh",
+    "cpanel": "bash deploy-cpanel.sh",
+    "test": "node test-all-commands.js",
+    "backup": "node backup-system.js",
+    "update": "git pull && npm install"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.18.0",
+    "socket.io": "^4.5.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "moment": "^2.29.0",
+    "chalk": "^4.1.0",
+    "dotenv": "^16.0.0",
+    "node-cron": "^3.0.0",
+    "pino": "^8.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "sharp": "^0.33.0",
+    "jimp": "^0.22.0",
+    "pdfkit": "^0.14.0",
+    "exceljs": "^4.0.0",
+    "crypto-js": "^4.0.0",
+    "openai": "^4.0.0",
+    "@google/generative-ai": "^0.1.0",
+    "mongoose": "^7.0.0",
+    "redis": "^4.0.0",
+    "sqlite3": "^5.0.0",
+    "lowdb": "^5.0.0",
+    "node-cache": "^5.0.0",
+    "form-data": "^4.0.0",
+    "ws": "^8.0.0",
+    "puppeteer": "^21.0.0",
+    "ytdl-core": "^4.0.0",
+    "yt-search": "^2.10.0",
+    "g-i-s": "^2.0.0",
+    "google-it": "^1.6.0",
+    "weather-js": "^2.0.0",
+    "translate-google": "^1.0.0",
+    "mathjs": "^11.0.0",
+    "uuid": "^9.0.0",
+    "bcryptjs": "^2.0.0",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "pm2": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "1500-features",
+    "baileys",
+    "whatsapp-api",
+    "bot"
+  ],
+  "author": "Mega Bot Team",
+  "license": "MIT"
+}
